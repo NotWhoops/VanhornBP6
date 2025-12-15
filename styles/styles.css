@@ -1,0 +1,14 @@
+body {
+    background-image: url(../assets/weatherAppBG.png);
+    background-size: cover;
+}
+
+.locationColor {
+    color: #C30000;
+    font-family: pixelify-sans;
+}
+
+@font-face {
+    font-family: pixelify-sans;
+    src: url(../assets/PixelifySans-VariableFont_wght.ttf);
+}
