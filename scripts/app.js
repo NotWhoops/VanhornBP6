@@ -1,5 +1,4 @@
-// Documentation : https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
-// Docuentation: https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
+import { API_KEY } from './environment.js';
 
 // const button = document.getElementById("getLocationBtn");
 // const output = document.getElementById("output");

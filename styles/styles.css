@@ -9,9 +9,7 @@ body {
 }
 
 .locationGrid{
-    display: grid;
-    grid-template-rows: 1 / 1;
-    grid-column: 1 / 3;
+    display: flex
 }
 
 @font-face {
