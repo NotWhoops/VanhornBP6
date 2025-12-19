@@ -1,7 +1,7 @@
-import { API_KEY } from './environment.js';
+import { API_KEY } from "./environment";
 
 function getWeatherData(){
-    fetch('https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=952e7cec2cadaedaa7f4d6e715973a12')
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${37.957}&lon=${121.292}&appid=${API_KEY}`)
       .then(response => response.json())
       .then(json => console.log(json))
 }
