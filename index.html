@@ -27,8 +27,8 @@
                             <li class="nav-item">
                                 <p class="locationColor">Stockton, Ca</p>
                             </li>
+                        </ul>
                     </div>
-                    <!-- <p id="output">Loading...</p> gets coordinates -->
                     <div class="locationMargin2"></div>
                     <nav class="navbar navbar-expand-lg navbarBG">
                         <form class="d-flex" role="search">
@@ -37,19 +37,34 @@
                                     <img src="./assets/search icon.png" alt="search icon">
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="./index.html">Stockton,Ca <img class="favoritesSize" src="./assets/favorites icon.png" alt="favorites icon"></a></li>
-                                    <li><a class="dropdown-item" href="./sanfrancisco.html">San Francisco,Ca <img class="favoritesSize" src="./assets/favorites icon.png" alt="favorites icon"></a></li>
-                                    <li><a class="dropdown-item" href="./sanjose.html">San Jose,Ca <img class="favoritesSize" src="./assets/favorites icon.png" alt="favorites icon"></a></li>
-                                    <li><a class="dropdown-item" href="./santacruz.html">Santa Cruz,Ca <img class="favoritesSize" src="./assets/favorites icon.png" alt="favorites icon"></a></li>
+                                    <li><a class="dropdown-item" href="./index.html">Stockton,Ca <img
+                                                class="favoritesSize" src="./assets/favorites icon.png"
+                                                alt="favorites icon"></a></li>
+                                    <li><a class="dropdown-item" href="./sanfrancisco.html">San Francisco,Ca <img
+                                                class="favoritesSize" src="./assets/favorites icon.png"
+                                                alt="favorites icon"></a></li>
+                                    <li><a class="dropdown-item" href="./sanjose.html">San Jose,Ca <img
+                                                class="favoritesSize" src="./assets/favorites icon.png"
+                                                alt="favorites icon"></a></li>
+                                    <li><a class="dropdown-item" href="./santacruz.html">Santa Cruz,Ca <img
+                                                class="favoritesSize" src="./assets/favorites icon.png"
+                                                alt="favorites icon"></a></li>
                                 </ul>
                             </div>
                             <input class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./index.html">Stockton,Ca <img class="favoritesSize" src="./assets/favorites icon.png" alt="favorites icon"></a></li>
-                                    <li><a class="dropdown-item" href="./sanfrancisco.html">San Francisco,Ca <img class="favoritesSize" src="./assets/favorites icon.png" alt="favorites icon"></a></li>
-                                    <li><a class="dropdown-item" href="./sanjose.html">San Jose,Ca <img class="favoritesSize" src="./assets/favorites icon.png" alt="favorites icon"></a></li>
-                                    <li><a class="dropdown-item" href="./santacruz.html">Santa Cruz,Ca <img class="favoritesSize" src="./assets/favorites icon.png" alt="favorites icon"></a></li>
+                                <li><a class="dropdown-item" href="./index.html">Stockton,Ca <img class="favoritesSize"
+                                            src="./assets/favorites icon.png" alt="favorites icon"></a></li>
+                                <li><a class="dropdown-item" href="./sanfrancisco.html">San Francisco,Ca <img
+                                            class="favoritesSize" src="./assets/favorites icon.png"
+                                            alt="favorites icon"></a></li>
+                                <li><a class="dropdown-item" href="./sanjose.html">San Jose,Ca <img
+                                            class="favoritesSize" src="./assets/favorites icon.png"
+                                            alt="favorites icon"></a></li>
+                                <li><a class="dropdown-item" href="./santacruz.html">Santa Cruz,Ca <img
+                                            class="favoritesSize" src="./assets/favorites icon.png"
+                                            alt="favorites icon"></a></li>
                             </ul>
                         </form>
                     </nav>
@@ -62,10 +77,18 @@
                                     <p class="favoritesColor">Favorites</p>
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="./index.html">Stockton,Ca <img class="favoritesSize" src="./assets/favorites icon.png" alt="favorites icon"></a></li>
-                                    <li><a class="dropdown-item" href="./sanfrancisco.html">San Francisco,Ca <img class="favoritesSize" src="./assets/favorites icon.png" alt="favorites icon"></a></li>
-                                    <li><a class="dropdown-item" href="./sanjose.html">San Jose,Ca <img class="favoritesSize" src="./assets/favorites icon.png" alt="favorites icon"></a></li>
-                                    <li><a class="dropdown-item" href="./santacruz.html">Santa Cruz,Ca <img class="favoritesSize" src="./assets/favorites icon.png" alt="favorites icon"></a></li>
+                                    <li><a class="dropdown-item" href="./index.html">Stockton,Ca <img
+                                                class="favoritesSize" src="./assets/favorites icon.png"
+                                                alt="favorites icon"></a></li>
+                                    <li><a class="dropdown-item" href="./sanfrancisco.html">San Francisco,Ca <img
+                                                class="favoritesSize" src="./assets/favorites icon.png"
+                                                alt="favorites icon"></a></li>
+                                    <li><a class="dropdown-item" href="./sanjose.html">San Jose,Ca <img
+                                                class="favoritesSize" src="./assets/favorites icon.png"
+                                                alt="favorites icon"></a></li>
+                                    <li><a class="dropdown-item" href="./santacruz.html">Santa Cruz,Ca <img
+                                                class="favoritesSize" src="./assets/favorites icon.png"
+                                                alt="favorites icon"></a></li>
                                 </ul>
                             </div>
                         </form>
@@ -77,100 +100,91 @@
     <br>
     <br>
     <br>
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
-            <div class="col forcastBG">
-                <h1 class="locationColor2">Today's Forcast</h1>
-                <div class="col sunBG">
-                    <img class="imgSize" src="./assets/sun.png" alt="sun icon">
+            <!-- TODAY -->
+            <div class="col-md-2 forcastBG">
+                <h1 class="locationColor2 mb-4">Today's Forecast</h1>
+                <div class="sunBG">
+                    <img class="todayIcon mb-2" src="./assets/sun.png" alt="sun">
                     <p class="forcastColor">Sunny</p>
-                    <div class="col">
-                        <p class="tempColor">80°</p>
-                    </div>
-                    <div class="col">
-                        <p class="tempColor2">83°</p>
-                        <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
-                    </div>
-                    <div class="col">
-                        <p class="tempColor3">77°</p>
-                        <img class="blueSize" src="./assets/blue arrow.png" alt="blue arrow">
+                    <p class="tempColor">80°</p>
+                    <div class="row d-flex">
+                        <div class="col">
+                            <p class="tempColor2">83° <img class="redSize" src="./assets/red arrow.png"></p>
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <p class="tempColor3">77° <img class="blueSize" src="./assets/blue arrow.png"></p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col upcomingBG columnSpace d-flex">
-                <h1 class="locationColor3">Upcoming Forcast</h1>
-                <div class="col">
-                    <div class="daysBG">
-                        <div style="width: 8rem;">
+
+            <!-- UPCOMING -->
+            <div class="col-md-10 upcomingBG columnSpace">
+
+                <h1 class="locationColor3 mb-4">Upcoming Forecast</h1>
+
+                <div class="row row-cols-5 flex-nowrap">
+
+                    <!-- Day -->
+                    <div class="col-3">
+                        <div class="daysBG">
                             <p class="upcomingColor">Mon</p>
-                            <img src="./assets/sun.png" alt="sunnny">
+                            <img class="dayIcon" src="./assets/sun.png">
                             <p class="monColor">77°</p>
-                            <div class="card-body">
-                                <p class="monColor">80°</p>
-                                <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
-                                <p class="monColor">72°</p>
-                                <img class="blueSize" src="./assets/blue arrow.png" alt="blue arrow">
-                            </div>
+                            <p class="monColor">80° <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
+                            </p>
+                            <p class="monColor">72° <img class="blueSize" src="./assets/blue arrow.png"
+                                    alt="blue arrow"></p>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="daysBG">
-                        <div style="width: 8rem;">
+
+                    <div class="col-3">
+                        <div class="daysBG">
                             <p class="upcomingColor">Tue</p>
-                            <img src="./assets/sun.png" alt="sunnny">
+                            <img class="dayIcon" src="./assets/sun.png">
                             <p class="monColor">73°</p>
-                            <div class="card-body">
-                                <p class="monColor">76°</p>
-                                <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
-                                <p class="monColor">70°</p>
-                                <img class="blueSize" src="./assets/blue arrow.png" alt="blue arrow">
-                            </div>
+                            <p class="monColor">76° <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
+                            </p>
+                            <p class="monColor">70° <img class="blueSize" src="./assets/blue arrow.png"
+                                    alt="blue arrow"></p>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="daysBG">
-                        <div style="width: 8rem;">
+
+                    <div class="col-3">
+                        <div class="daysBG">
                             <p class="upcomingColor">Wed</p>
-                            <img src="./assets/sun.png" alt="sunnny">
+                            <img class="dayIcon" src="./assets/sun.png">
                             <p class="monColor">77°</p>
-                            <div class="card-body">
-                                <p class="monColor">82°</p>
-                                <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
-                                <p class="monColor">72°</p>
-                                <img class="blueSize" src="./assets/blue arrow.png" alt="blue arrow">
-                            </div>
+                            <p class="monColor">82° <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
+                            </p>
+                            <p class="monColor">72° <img class="blueSize" src="./assets/blue arrow.png"
+                                    alt="blue arrow"></p>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="daysBG">
-                        <div style="width: 8rem;">
-                            <p class="upcomingColor">Thur</p>
-                            <img src="./assets/sun.png" alt="sunnny">
+
+                    <div class="col-3">
+                        <div class="daysBG">
+                            <p class="upcomingColor">Thu</p>
+                            <img class="dayIcon" src="./assets/sun.png">
                             <p class="monColor">83°</p>
-                            <div class="card-body">
-                                <p class="monColor">85°</p>
-                                <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
-                                <p class="monColor">79°</p>
-                                <img class="blueSize" src="./assets/blue arrow.png" alt="blue arrow">
-                            </div>
+                            <p class="monColor">85° <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
+                            </p>
+                            <p class="monColor">79° <img class="blueSize" src="./assets/blue arrow.png"
+                                    alt="blue arrow"></p>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="daysBG">
-                        <div style="width: 8rem;">
+
+                    <div class="col-3">
+                        <div class="daysBG">
                             <p class="upcomingColor">Fri</p>
-                            <img src="./assets/sun.png" alt="sunnny">
+                            <img class="dayIcon" src="./assets/sun.png">
                             <p class="monColor">79°</p>
-                            <div class="card-body">
-                                <p class="monColor">83°</p>
-                                <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
-                                <p class="monColor">73°</p>
-                                <img class="blueSize" src="./assets/blue arrow.png" alt="blue arrow">
-                            </div>
+                            <p class="monColor">83° <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
+                            </p>
+                            <p class="monColor">73° <img class="blueSize" src="./assets/blue arrow.png"
+                                    alt="blue arrow"></p>
                         </div>
                     </div>
                 </div>

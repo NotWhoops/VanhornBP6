@@ -21,6 +21,7 @@ body {
     color: #C30000;
     font-family: pixelify-sans;
     font-size: 34px;
+    text-align: center;
 }
 
 .forcastColor {
@@ -98,13 +99,11 @@ body {
     margin-bottom: 100px;
     border-radius: 10px;
 }
+
 .upcomingBG{
     background-color: #D9D9D942;
     border-radius: 10px;
     width: 517px;
-    height: 275px;
-    top: 257px;
-    left: 539px;
 }
 
 .daysBG{
@@ -115,10 +114,6 @@ body {
     background-color: #41447470;
     width: 500px;
     border-radius: 10px;
-}
-
-.imgSize{
-    margin-left: 200px;
 }
 
 .tempBG{
@@ -144,6 +139,25 @@ body {
 .favoritesSize{
     width: 30px;
     height: 30px;
+}
+/* centered icon for TODAY */
+.todayIcon{
+  width: 90px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* centered icon for EACH DAY card */
+.dayIcon{
+  width: 55px;
+  display: block;
+  margin: 8px auto;
+}
+
+/* make sure the card stacks items vertically */
+.daysBG{
+  text-align: center;
+  width: 99px;  
 }
 
 @font-face {
